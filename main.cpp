@@ -16,6 +16,11 @@ int main(int argc, const char * argv[]) {
 //    FileHelper::coutLowLetterStatsFromTextFile("input.txt");
 //    end = clock();
 //    printf("Took : %f\n",(float)(end - start)/(float)CLOCKS_PER_SEC);
+    AreAnagrams::areStringsAnagrams("eee", "eee");
+    
     AreAnagrams::areStringsAnagrams("acb", "bac");
+        
+    AreAnagrams::areStringsAnagrams("adfadf", "baadfadfac");
+
     return(0);
 }
