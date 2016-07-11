@@ -4,7 +4,7 @@ An anagram is a word formed from another by rearranging its letters, using all t
 ## 
 Use c++ to tell if given two strings are anagrams.
 
-##sudo code
+##pseudo code
 ```
   isAnagrams as true
   first string as source string, second string as target string
